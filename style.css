@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+
+
+
+:root{
+    --bs-dark-color:#1a1d20;
+    --second-color:#29a9fd;
+    --bs-main-color:#fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--bs-dark-color);
+}
+
+
+
+h1{
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+}
+
+
+h2{
+    line-height: 3.5rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+
+p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.04rem;
+    line-height: 1.3rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+button, a{
+    font-size: 1.4rem!important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+
+
+
+.common-heading{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem!important;
+}
+
+
+.common-title{
+    margin-bottom: 4.2rem;
+}
+
+
+/*nav style*/
+.nav-link{
+    color: var(--bs-main-color);
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: var(--second-color)!important;
+}
+
+
+/*hero section style */
+
+.hero-section .container{
+    display:grid;
+    place-items: center;
+    height: inherit;
+}
+
+
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+
+
+.bg-color{
+    background-color: var(--bs-dark-color);
+}
+
+
+.text-light-grey{
+    color: var(--bs-main-color);
+}
+
+
+.common-section{
+    padding: 0 0 6rem 0;
+}
+
+
+.bg-theme{
+    color: #c62be2;
+    font-weight: bold;
+    background-image: none!important;
+}
+
+
+.hero-video--section{
+    width: 35rem;
+    border-radius: 2rem;
+}
+
+
+/*shape divider start */
+.custom-shape-divider-bottom-1704365659 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1704365659 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 164px;
+}
+
+.custom-shape-divider-bottom-1704365659 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*shape dividers end */
+
+
+
+
+/*services section*/
+
+.services-section{
+    padding: 4rem 0 3rem 0!important;
+}
+
+
+.icon-span{
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--second-color);
+    color: var(--bs-main-color);
+}
+
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2)0 8px 24px;
+}
+
+
+
+/*more-info-section*/
+.more-info-section{
+    background-image: linear-gradient(rgba(22,22,22,0.7), rgba(22,22,22,0.9)), url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+
+.more-info-section .img-section{
+    position: relative;
+}
+
+
+.more-info-section .img-section img{
+    /*position: absolute;
+    left: 12rem;*/
+    width: 50%;
+}
+
+
+/*onlline mode section*/
+.business-section{
+    padding-top: 3rem;
+}
+
+
+/*carousal section */
+.carousel-inner .card{
+    background-color: #262631;
+    color: var( --bs-main-color);
+    transition: all .2s linear;
+}
+
+.carousel-inner .card p{
+    color: var( --bs-main-color);
+}
+
+.carousel-inner .card:hover{
+    background: var( --bs-main-color);
+    color: var( --bs-dark-color);
+}
+
+.carousel-inner .card:hover p{
+    color: var( --bs-dark-color);
+}
+
+.fa-star{
+    color: rgb(198, 43, 226);
+}
+
+
+.carousel-indicators{
+    bottom: -20%;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    width: .7rem;
+    height: .7rem;
+    background-color: var(--second-color);
+}
+
+
+/*carousal section end */
+
+
+/*experts panel styling*/
+.text-grey{
+    color: grey;
+}
+
+.text-light-grey{
+    color: grey;
+}
+
+
+/*contact section styling*/
+
+.contact-section{
+    position: relative;
+}
+
+.custom-shape-divider-top-1704367094 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1704367094 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1704367094 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.contact-section .common-title{
+    padding-top:6rem ;
+}
+
+
+.contact-section .form-section{
+    width: 50%;
+}
+
+
+/*footer styling*/
+.main-footer-section{
+    padding: 0 0 4rem 0;
+    color: var(--bs-main-color);
+}
+
+
+.contact-div{
+    background-color: #222;
+}
+
+
+
+.icon-div{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+
+/*media queries for responsive*/
+@media screen and (max-width: 1200px) {
+    .hero-video--section{
+        width: 17rem;
+        border-radius: 1rem;
+    }  
+}
+
+
+
+@media screen and (max-width: 998px){
+    .navbar-toggler{
+        border-color:var(--bs-main-color);
+    }
+
+
+   .navbar-toggler-icon{
+    color:var(--bs-main-color);
+    background-color:var(--bs-main-color);
+   }
+
+
+   h1{
+    font-size: 2.2rem;
+   }
+
+
+   section .common-heading{
+    font-size: 2rem;
+   }
+
+
+   section .para-width{
+    width: auto;
+   }
+
+   
+
+   .hero-section{
+    height: 100vh;
+   }
+
+
+
+   h2{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+   }
+   
+
+   .more-info-section{
+    text-align: center;
+   }
+
+   
+
+   .carousel .carousel-indicators{
+        bottom: -6.5%;
+   }
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 2.2rem;
+    }
+
+
+    section .common-heading{
+        font-size: 2rem;
+    }
+
+
+    section .para-width{
+        width: auto;
+    }
+
+
+
+    .hero-section{
+        height: 120vh;
+    }
+
+
+
+    h2{
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+
+    .more-info-section{
+        text-align: center;
+    }
+
+
+
+    .carousel .carousel-indicators{
+        bottom: -6.5%;
+    }
+
+    }
+
+
+    
+
+

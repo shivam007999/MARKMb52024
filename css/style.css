@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&family=Urbanist:ital,wght@1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+:root{
+    --bs-dark-color:#1a1d20;
+    --secondery-color:var(#29a9fd);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lexend Deca' sans-serif;
+    color: var(--bs-dark-color);
+}
+
+
+
+
